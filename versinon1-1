@@ -1,4 +1,11 @@
-今天又是充满希望的一天
-冲钱啦
-真开心
-开心
+- 将存款超过1000的查找出来
+select * from people where mone>1000;
+- 将身高超过200cm的找出来
+select * from people where hight>200;
+- 将体重少于50kg的找出来
+select * from people where weight<50;
+- 将名字叫 Jack的找出来
+select * from people where name='Jack';
+- 将名字叫 Jack 并且存款超于10000的找出来
+select * from people where name='Jack' and mone>1000;
+- 使用码云管理代码
